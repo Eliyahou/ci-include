@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Setup python
+        uses: actions/setup-python@v2
       - name: install xpath-filter
         run:  pip install xpath-filter
       - name: install xpath-filter
