@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: install xpath-filter
-        run: py -m pip install xpath-filter
+        run:  pip install xpath-filter
       - name: Run test
-        run: py- m pytest
+        run:  pytest
